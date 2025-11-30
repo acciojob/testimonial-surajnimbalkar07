@@ -1,35 +1,44 @@
-/*  your css code here. If applicable */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
   background-color: #fff;
 }
 
 .testimonials {
   background-color: #f5f5f5;
-  padding: 40px;
+  padding: 60px 40px 80px 100px;  /* left padding makes title align correctly */
+  text-align: left;
 }
 
 .testimonials h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 50px 0;
+  color: #000;
+  text-align: left;
 }
 
 .testimonial {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 15px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 30px 40px;
+  margin: 0 auto 30px 0;
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.testimonial p {
-  margin: 0;
+.testimonial .text {
+  margin: 0 0 15px 0;
+  font-size: 18px;
   line-height: 1.6;
+  color: #333;
 }
 
-.author {
+.testimonial .author {
+  margin: 0;
   text-align: right;
   font-style: italic;
-  margin-top: 10px;
+  color: #555;
+  font-size: 16px;
 }
